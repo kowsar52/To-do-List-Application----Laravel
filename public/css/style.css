@@ -1,0 +1,99 @@
+/* import google font --work sans-- */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #fdfeff;
+}
+.container{
+    font-family: 'Work Sans', sans-serif;
+    color: #616161;
+    
+}
+.main-section{
+    margin: 0 auto;
+    padding: 50px;
+    width: 700px;
+}
+.main-section h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #4495eb;
+    opacity: 0.5;
+    font-size: 80px;
+}
+.to-do{
+    background: #fff;
+    box-shadow: 0px 2px 5px #e2e2e2;
+    border-radius: 5px;
+    height: auto;
+    position: absolute;
+    width: 700px;
+}
+#to-do-input{
+    border: none;
+    font-size: 20px;
+    width: 94%;
+    border-bottom: 1px solid #ecedef;
+    padding: 20px;
+    color: #616161;
+}
+.to-do-list{padding: 0px;display:none}
+
+.to-do-list li{
+    list-style: none;
+    display: block;
+    padding: 20px;
+}
+
+.checkTodo {
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+
+.to-do-footer{
+    float: left;
+    padding: 0px;
+    border-top: 1px solid #efefef;
+    width: 100%;
+    display:none
+}
+.to-do-footer li{
+    float: left;
+    padding: 15px;
+    list-style: none;
+}
+button{
+    background: none;
+    border: 1px solid #a1caf5;
+    color: #a1caf5;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.active{
+    background: #a1caf5;
+    color: #fff;
+}
+
+label.editTodo {
+    font-size: 18px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.editInput{
+    position: relative;
+    border: 1px solid #e0efff;
+    padding: 8px;
+    border-radius: 5px;
+    color: dimgrey;
+    margin-left: 10px;
+}
+.footer{
+    text-align: center;
+    margin-top: 200px;
+}
+
